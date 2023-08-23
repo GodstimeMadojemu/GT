@@ -1,7 +1,8 @@
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         int a = 25, b = 5;
-      int z= 3;
+        int z = 3;
         // for addition
         System.out.println(a + b);
         // for subtraction
@@ -12,5 +13,28 @@ public class Main {
         System.out.println(a / b);
         // for remainder
         System.out.println(a % b);
-    }
-}
+
+        double x = Math.pow(b, (double) 2);
+        System.out.println(x);
+
+        // method two
+        // a simple calculator allowing the user to input variable
+
+        Scanner sc = new Scanner(System.in);
+       System.out.println("enter a value for A");
+        int Scanned1= sc.nextInt();
+        System.out.println("enter a value for B");
+        Scanner sc1 = new Scanner(System.in);
+        int Scanned2= sc.nextInt();
+        int A = Scanned1;
+        int B = Scanned2;
+                int sum = A + B;
+                int diff = A - B;
+                int mul = A * B;
+                double div = A / (double) B;  // double was used should incace the output has a decimal
+                 int rem = A % B;
+        System.out.println(mul); // you can decide what to print
+
+
+
+    }}
