@@ -1,0 +1,16 @@
+public class Main {
+    public static void main(String[] args) {
+        int a = 25, b = 5;
+      int z= 3;
+        // for addition
+        System.out.println(a + b);
+        // for subtraction
+        System.out.println(a - b);
+        // for multiplicatio
+        System.out.println(a * b);
+        // for divition
+        System.out.println(a / b);
+        // for remainder
+        System.out.println(a % b);
+    }
+}
